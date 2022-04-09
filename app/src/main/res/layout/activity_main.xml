@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00BCD4"
+    android:background="#B3F6FF"
     android:gravity="center_vertical|center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -31,15 +31,19 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:width="150dp"
+        android:backgroundTint="#2290E4"
+        android:onClick="addNumber"
         android:text="@string/add_number"
-        android:onClick="addNumber"/>
+        android:textColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:width="150dp"
-        android:text="@string/add_number"
-        android:onClick="minNumber"/>
+        android:backgroundTint="#2290E4"
+        android:onClick="minNumber"
+        android:text="@string/min_number"
+        android:textColor="#FFFFFF" />
 
 </LinearLayout>
